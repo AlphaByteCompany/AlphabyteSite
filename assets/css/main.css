@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho,
+#home,
+#QuemSomos,
+#services,
+#colaboradores,
+#rodape {
+  display: flex;
+  flex: 1 1 100vw;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f6f8fa;
+}
+.cabecalho__content {
+  display: flex;
+}
+.cabecalho__logo {
+  position: relative;
+  right: 15vh;
+  height: 10vh;
+}
+.cabecalho__logo img {
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.menu__button {
+  position: relative;
+  height: 5vh;
+  width: 2%;
+  left: 15vh;
+  top: 2vh;
+}
+.menu__button img {
+  height: 100%;
+}
+#cabecalho__menu {
+  display: none;
+}
+
+#menu__links {
+  padding: 3vh;
+  width: 100vw;
+}
+#menu__links li {
+  list-style: none;
+  padding: 1vh;
+}
+#home {
+  background-color: #f6f8fa;
+  height: 40vh;
+  overflow: hidden;
+}
+#home__content {
+  padding: 2vh;
+
+  display: flex;
+  align-content: center;
+}
+#home img {
+  position: relative;
+  right: 10vh;
+  mix-blend-mode: multiply;
+}
+.content__text {
+  width: 50%;
+  margin-top: 3vh;
+}
+.content__text h1 {
+  color: #f28749;
+}
+
+.content__text p {
+  font-size: 1em;
+  color: black;
+}
+.content__text button {
+  background-color: #f28749;
+  color: white;
+  padding: 1.5vh;
+  border-radius: 2vh;
+  border: none;
+  margin: 2vh;
+}
+#QuemSomos {
+  background-color: #f6f8fa;
+}
+
+.quemSomos__content__text {
+  text-align: center;
+  margin-top: 10vh;
+  padding: 2vh;
+}
+.quemSomos__content__text h2 {
+  padding-bottom: 3vh; 
+  font-size: 2em;
+}
+.quemSomos__content__text p {
+  padding-bottom: 10vh;
+}
+.quemSomos__content__text small {
+  padding-bottom: 10vh;
+  color: #f28749;
+}
+.card__area {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card__body {
+  background-color: white;
+  width: 30vh;
+  padding: 2vh;
+  margin: 1vh;
+  border-radius: 3vh;
+}
+.card__img {
+  height: 20vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.card__img img {
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.card__text {
+  text-align: center;
+}
+.card__text h2 {
+  padding-bottom: 3vh;
+}
+.img__content {
+  height: 20vh;
+}
+.img__content img {
+  height: 100%;
+}
+#services {
+  background-color: #f6f8fa;
+}
+#service__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services__text {
+  margin-top: 20vh;
+  padding: 2vh;
+}  
+.services__text small { 
+  padding-bottom: 4vh;
+  color: #f28749;
+} 
+.services__text h3 {
+  padding-bottom: 5vh;   
+  font-size: 2em;
+}
+.services__cards__area{
+  
+  margin-top: 15vh;
+}
+.card__service__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: white;
+  width: 30vh;
+  border-radius: 1vh;
+}
+.card__service__img {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 2vh;
+  height: 15vh;
+}
+.card__service__img img {
+  height: 100%;
+}
+.card__service__body button { 
+  background-color: #f28749;
+  color: white;
+  border: none;
+  border-radius: 2vh;
+  margin-top: 1vh;
+  padding: 1vh 4vh;
+}
+#colaboradores {
+}
+#rodape {
+}
