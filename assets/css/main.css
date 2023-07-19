@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Raleway;
 }
 
 #cabecalho,
@@ -37,9 +38,8 @@
 .menu__button {
   position: relative;
   height: 5vh;
-  width: 2%;
-  left: 15vh;
-  top: 2vh;
+  left: 13vh;
+  top: 3vh;
 }
 .menu__button img {
   height: 100%;
@@ -78,6 +78,7 @@
 }
 .content__text h1 {
   color: #f28749;
+  font-family: Raleway;
 }
 
 .content__text p {
@@ -90,7 +91,7 @@
   padding: 1.5vh;
   border-radius: 2vh;
   border: none;
-  margin: 2vh;
+  margin: 1vh;
 }
 #QuemSomos {
   background-color: #f6f8fa;
@@ -102,7 +103,7 @@
   padding: 2vh;
 }
 .quemSomos__content__text h2 {
-  padding-bottom: 3vh; 
+  padding-bottom: 3vh;
   font-size: 2em;
 }
 .quemSomos__content__text p {
@@ -161,17 +162,16 @@
 .services__text {
   margin-top: 20vh;
   padding: 2vh;
-}  
-.services__text small { 
+}
+.services__text small {
   padding-bottom: 4vh;
   color: #f28749;
-} 
+}
 .services__text h3 {
-  padding-bottom: 5vh;   
+  padding-bottom: 5vh;
   font-size: 2em;
 }
-.services__cards__area{
-  
+.services__cards__area {
   margin-top: 15vh;
 }
 .card__service__body {
@@ -194,7 +194,7 @@
 .card__service__img img {
   height: 100%;
 }
-.card__service__body button { 
+.card__service__body button {
   background-color: #f28749;
   color: white;
   border: none;
