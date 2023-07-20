@@ -88,19 +88,34 @@
 .content__text button {
   background-color: #f28749;
   color: white;
-  padding: 1.5vh;
+  padding: 1.4vh;
   border-radius: 2vh;
   border: none;
-  margin: 1vh;
+  position: relative;
+  top: 8%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 #QuemSomos {
   background-color: #f6f8fa;
 }
 
 .quemSomos__content__text {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 15vh;
   padding: 2vh;
+}
+.border1 {
+  background-color: #f1a477;
+
+  width: 20%;
+  height: 0.4vh;
+  position: relative;
+  bottom: 2vh;
+  border-radius: 2vh;
 }
 .quemSomos__content__text h2 {
   padding-bottom: 3vh;
@@ -110,7 +125,8 @@
   padding-bottom: 10vh;
 }
 .quemSomos__content__text small {
-  padding-bottom: 10vh;
+  font-weight: bold;
+  padding-bottom: 5vh;
   color: #f28749;
 }
 .card__area {
@@ -125,6 +141,7 @@
   padding: 2vh;
   margin: 1vh;
   border-radius: 3vh;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .card__img {
   height: 20vh;
@@ -163,8 +180,17 @@
   margin-top: 20vh;
   padding: 2vh;
 }
+.border {
+  background-color: #f1a477;
+  width: 20%;
+  height: 0.4vh;
+  position: relative;
+  bottom: 4vh;
+  border-radius: 2vh;
+}
 .services__text small {
   padding-bottom: 4vh;
+  font-weight: bold;
   color: #f28749;
 }
 .services__text h3 {
@@ -179,10 +205,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  background-color: white;
   width: 30vh;
+  background-color: white;
   border-radius: 1vh;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .card__service__img {
   display: flex;
@@ -202,6 +228,18 @@
   margin-top: 1vh;
   padding: 1vh 4vh;
 }
+.card__service__text {
+  text-align: center;
+  padding: 3vh;
+}
+.card__service__text small {
+  font-weight: bold;
+  color: #f28749;
+}
+.card__service__text p {
+  padding-top: 2vh;
+}
+
 #colaboradores {
 }
 #rodape {
