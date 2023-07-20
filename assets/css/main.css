@@ -72,6 +72,19 @@
   right: 10vh;
   mix-blend-mode: multiply;
 }
+.scroll__img {
+  height: 5vh;
+  width: 5vh;
+  position: relative;
+  bottom: 10vh;
+}
+.scroll__img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #f1a477;
+}
 .content__text {
   width: 50%;
   margin-top: 3vh;
