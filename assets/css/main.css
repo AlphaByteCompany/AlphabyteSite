@@ -154,7 +154,11 @@
   padding: 2vh;
   margin: 1vh;
   border-radius: 3vh;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
 }
 .card__img {
   height: 20vh;
@@ -254,6 +258,72 @@
 }
 
 #colaboradores {
+  background-color: #f6f8fa;
 }
+.colaboradores__text h3 {
+  padding-bottom: 3vh;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.colaboradores__text small {
+  font-weight: bold;
+  color: #f28749;
+}
+.colaboradores__text p {
+  padding: 1vh;
+}
+.colaboradores__text {
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.cards__area__team {
+  padding-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+.card__img2{ 
+ height: 30vh; 
+ background-color: #f28749;  
+ clip-path: circle(); 
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+ border: solid 5px #f1a477; 
+ border-radius: 50vh;
+} 
+.card__img2 img {
+  height: 100%; 
+  z-index: 0;
+} 
+
+.card__text {
+  padding: 2vh; 
+  text-align: center;
+} 
+.card__text h3 {
+  font-weight: bold; 
+  padding-bottom: 1vh; 
+  color: #f28749;
+}  
+.card__text h4 {
+  font-weight: bold;  
+  padding-bottom: 2vh;
+} 
+.show__Text {
+  background-color: black; 
+  padding:1vh 1.5vh; 
+  color: white; 
+  border: none; 
+  border-radius: 3vh;  
+  font-weight: bold;
+
+} 
+.apresentacao__colaborador{
+  display: none;
+}
+
 #rodape {
 }
