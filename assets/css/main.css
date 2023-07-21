@@ -56,6 +56,10 @@
   list-style: none;
   padding: 1vh;
 }
+#menu__links a {
+  color: black;
+  text-decoration: none;
+}
 #home {
   background-color: #f6f8fa;
   height: 40vh;
@@ -111,6 +115,12 @@
 #QuemSomos {
   background-color: #f6f8fa;
 }
+.wpplogo {
+  height: 10vh;
+  position: fixed;
+  right: 2vh;
+  bottom: 2vh;
+}
 
 .quemSomos__content__text {
   display: flex;
@@ -154,10 +164,10 @@
   padding: 2vh;
   margin: 1vh;
   border-radius: 3vh;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .card__img {
@@ -244,6 +254,7 @@
   border-radius: 2vh;
   margin-top: 1vh;
   padding: 1vh 4vh;
+  margin: 2vh;
 }
 .card__service__text {
   text-align: center;
@@ -259,6 +270,7 @@
 
 #colaboradores {
   background-color: #f6f8fa;
+  padding-bottom: 10vh;
 }
 .colaboradores__text h3 {
   padding-bottom: 3vh;
@@ -283,47 +295,112 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-} 
-.card__img2{ 
- height: 30vh; 
- background-color: #f28749;  
- clip-path: circle(); 
- display: flex; 
- align-items: center; 
- justify-content: center; 
- border: solid 5px #f1a477; 
- border-radius: 50vh;
-} 
+}
+.card__img2 {
+  height: 30vh;
+  background-color: #f28749;
+  clip-path: circle();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 5px #f1a477;
+  border-radius: 50vh;
+}
 .card__img2 img {
-  height: 100%; 
+  height: 100%;
   z-index: 0;
-} 
+}
 
 .card__text {
-  padding: 2vh; 
+  padding: 2vh;
   text-align: center;
-} 
+}
 .card__text h3 {
-  font-weight: bold; 
-  padding-bottom: 1vh; 
-  color: #f28749;
-}  
-.card__text h4 {
-  font-weight: bold;  
-  padding-bottom: 2vh;
-} 
-.show__Text {
-  background-color: black; 
-  padding:1vh 1.5vh; 
-  color: white; 
-  border: none; 
-  border-radius: 3vh;  
   font-weight: bold;
-
-} 
-.apresentacao__colaborador{
+  padding-bottom: 1vh;
+  color: #f28749;
+}
+.card__text h4 {
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+.show__Text {
+  background-color: black;
+  padding: 1vh 1.5vh;
+  color: white;
+  border: none;
+  border-radius: 3vh;
+  font-weight: bold;
+}
+.apresentacao__colaborador {
   display: none;
 }
 
 #rodape {
+  background-color: #ffffff;
+  display: flex;
+}
+#rodape__content {
+  display: flex;
+  width: 100%;
+  padding: 3vh;
+}
+.page__links {
+  width: 40%;
+}
+
+.page__links ul li {
+  padding: 1vh;
+  list-style: none;
+  font-weight: bold;
+}
+.page__links a {
+  text-decoration: none;
+  color: black;
+}
+.logo__rodape {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.logo__rodape img {
+  height: 100%;
+  mix-blend-mode: multiply;
+  margin: 0;
+}
+.infos {
+  padding: 1vh;
+}
+.info__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info__social ul {
+  list-style: none;
+  display: flex;
+}
+.info__social ul img {
+  height: 3vh;
+  margin: 1vh;
+}
+.info__local {
+  padding-top: 2vh;
+  display: flex;
+}
+.info__local img {
+  height: 3vh;
+  margin: 1vh;
+}
+
+.info__contact {
+  padding-top: 2vh;
+  display: flex;
+}
+.info__contact img {
+  height: 5vh;
+  mix-blend-mode: multiply;
 }
