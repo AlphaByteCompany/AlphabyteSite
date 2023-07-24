@@ -9,6 +9,7 @@ $(document).ready(function () {
     $(".show__Text").html("▼");
     $(".apresentacao__colaborador").slideToggle();
     $(this).toggleClass("show__active");
-    $(".show__active").html("▲");
-  });
+    $(".show__active").html("▲"); 
+  }); 
+  
 });
