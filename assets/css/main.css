@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: Raleway;
 }
-
+body{
+  scroll-behavior: smooth;
+}
 #cabecalho,
 #home,
 #QuemSomos,
@@ -103,15 +105,29 @@
   font-size: 1em;
   color: black;
 }
-.content__text button {
-  background-color: #f28749;
-  color: white;
-  padding: 1.4vh;
-  border-radius: 2vh;
-  border: none;
+.content__text button { 
+  text-align: center; 
+  min-width: 95px;
+  height: 35px;
+  color: #fff;
+  padding: 3px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
   position: relative;
-  top: 8%;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none; 
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #c02425 0%, #f0cb35 75%);
+  
+} 
+.content__text button:hover {
+  background-position: right center;
+}
+.content__text button:active {
+  top: 2px;
 }
 #QuemSomos {
   background-color: #f6f8fa;
@@ -247,7 +263,8 @@
 }
 .card__service__img img {
   height: 100%;
-}
+} 
+
 .card__service__body button {
   background-color: #f28749;
   color: white;
@@ -256,7 +273,8 @@
   margin-top: 1vh;
   padding: 1vh 4vh;
   margin: 2vh;
-}
+} 
+
 .card__service__text {
   text-align: center;
   padding: 3vh;
@@ -632,7 +650,8 @@
   #menu__links li {
     list-style: none;
     display: inline;
-    padding: 2vh;
+    padding: 2vh; 
+    font-size: 0.8em;
   }
   #menu__links li:hover {
     background-color: #f4f4f4;
@@ -667,17 +686,7 @@
     font-size: 1em;
     width: 40vh;
   }
-  #home__content button {
-    background-color: #f28749;
-    color: white;
-    padding: 1vh 2vh;
-    border-radius: 2vh;
-    border: none;
-    position: relative;
-    top: 8%;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-    font-size: 1em;
-  }
+
   #home img {
     position: relative;
     left: -16vh;
@@ -874,3 +883,4 @@
     mix-blend-mode: multiply;
   }
 }
+ 
