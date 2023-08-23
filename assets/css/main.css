@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
- 
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Raleway;
+  scroll-behavior: smooth;
 }
-body{
+html {
   scroll-behavior: smooth;
 }
 #cabecalho,
@@ -74,13 +75,13 @@ body{
 
   display: flex;
   align-content: center;
+  justify-content: center;
 }
 #home img {
   position: relative;
   right: 5vh;
-  mix-blend-mode: multiply; 
-  background-color: red; 
-
+  mix-blend-mode: multiply;
+  background-color: red;
 }
 .scroll__img {
   height: 5vh;
@@ -98,12 +99,12 @@ body{
 .content__text {
   width: 50%;
   margin-top: 3vh;
-} 
+}
 .content__text {
   display: inline-block;
   margin: 0 0.5rem;
 
-  animation:fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 .content__text h1 {
@@ -115,8 +116,8 @@ body{
   font-size: 1em;
   color: black;
 }
-.content__text button { 
-  text-align: center; 
+.content__text button {
+  text-align: center;
   min-width: 95px;
   height: 35px;
   color: #fff;
@@ -128,11 +129,11 @@ body{
   display: inline-block;
   outline: none;
   border-radius: 15px;
-  border: none; 
+  border: none;
   background-size: 120% auto;
   background-image: linear-gradient(315deg, #c02425 0%, #f0cb35 75%);
-  top: 5%; 
-} 
+  top: 5%;
+}
 .content__text button:hover {
   background-position: right center;
 }
@@ -196,13 +197,13 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}   
+}
 .card__img :hover {
   display: inline-block;
   margin: 0 0.5rem;
 
   animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s
+  animation-duration: 2s;
 }
 .card__img {
   height: 20vh;
@@ -270,7 +271,7 @@ body{
   background-color: white;
   border-radius: 1vh;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-} 
+}
 
 .card__service__img {
   display: flex;
@@ -281,7 +282,7 @@ body{
 }
 .card__service__img img {
   height: 100%;
-} 
+}
 
 .card__service__body button {
   background-color: #f28749;
@@ -291,7 +292,7 @@ body{
   margin-top: 1vh;
   padding: 1vh 4vh;
   margin: 2vh;
-} 
+}
 
 .card__service__text {
   text-align: center;
@@ -668,7 +669,7 @@ body{
   #menu__links li {
     list-style: none;
     display: inline;
-    padding: 2vh; 
+    padding: 2vh;
     font-size: 0.8em;
   }
   #menu__links li:hover {
@@ -901,4 +902,3 @@ body{
     mix-blend-mode: multiply;
   }
 }
- 
