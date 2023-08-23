@@ -77,8 +77,10 @@ body{
 }
 #home img {
   position: relative;
-  right: 10vh;
-  mix-blend-mode: multiply;
+  right: 5vh;
+  mix-blend-mode: multiply; 
+  background-color: red; 
+
 }
 .scroll__img {
   height: 5vh;
