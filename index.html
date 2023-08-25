@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="CEO Thiago Duarte Miranda Dias" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />  
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -16,7 +18,7 @@
     <header id="cabecalho">
       <div class="cabecalho__content">
         <div class="cabecalho__logo">
-          <img id="logo" class="logo" src="assets/img/logo3.avif" alt="" />
+          <img id="logo" class="logo" src="assets/img/alphabit logo.png" alt="" />
         </div>
         <div class="menu__button">
           <img src="assets/img/cardapio.png" alt="menu" />
@@ -46,7 +48,7 @@
     <section id="QuemSomos">
       <img class="wpplogo" src="assets/img/wpp.png" alt="" />
       <main id="QuemSomos__content">
-        <div class="quemSomos__content__text">
+        <div class="quemSomos__content__text"  >
           <div class="scroll__img">
             <img src="assets/img/scroll.png" alt="" />
           </div>
@@ -59,7 +61,7 @@
         </div>
         <div class="card__area">
           <!--CARD MISSION-->
-          <div class="card-mission card__body">
+          <div class="card-mission card__body" data-aos="flip-down" >
             <div class="card__img">
               <img src="assets/img/mission.png" alt="missio" />
             </div>
@@ -70,7 +72,7 @@
             </div>
           </div>
           <!--CARD VISION-->
-          <div class="card-vision card__body">
+          <div class="card-vision card__body" data-aos="flip-down" >
             <div class="card__img">
               <img src="assets/img/vision.png" alt="vision" />
             </div>
@@ -81,7 +83,7 @@
             </div>
           </div>
           <!--card Values-->
-          <div class="card-values card__body">
+          <div class="card-values card__body"  data-aos="flip-down" >
             <div class="card__img">
               <img src="assets/img/values.png" alt="values" />
             </div>
@@ -96,7 +98,8 @@
     </section>
     <section id="services">
       <main id="service__content">
-        <div class="services__text">
+        <div class="services__text" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" >
           <small>Security Services</small>
           <h3>Serviços</h3>
           <div class="border"></div>
@@ -106,7 +109,7 @@
           </p>
         </div>
         <div class="services__cards__area">
-          <div class="card__service__body">
+          <div class="card__service__body "  data-aos="flip-down">
             <div class="card__service__img">
               <img src="assets/img/deveoping.png" alt="" />
             </div>
@@ -124,8 +127,9 @@
     </section>
     <section id="colaboradores">
       <main id="colaboradores_content">
-        <div class="colaboradores__text">
-          <h3>DEVELOPERS TEAM</h3>
+        <div class="colaboradores__text" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" >
+          <h3>DEVELOPERS TEAM</h3> 
           <small> Focus in progress </small>
           <div class="border1"></div>
           <p>
@@ -135,7 +139,35 @@
           </p>
         </div>
         <div class="cards__area__team">
-          <div class="card__body">
+          <div class="card__body"  data-aos="flip-left" >
+            <div class="card__img2">
+              <img src="assets/img/ceo.png" alt="" />
+            </div>
+
+            <div class="card__text">
+              <h3>CEO</h3>
+              <h4>Thiago Duarte</h4>
+              <button id="btn_team_show" class="show__Text">▼</button>
+              <div class="apresentacao__colaborador">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card__body"  data-aos="flip-left" >
+            <div class="card__img2">
+              <img src="assets/img/ceo.png" alt="" />
+            </div>
+
+            <div class="card__text">
+              <h3>CEO</h3>
+              <h4>Thiago Duarte</h4>
+              <button id="btn_team_show" class="show__Text">▼</button>
+              <div class="apresentacao__colaborador">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card__body"   data-aos="flip-left">
             <div class="card__img2">
               <img src="assets/img/ceo.png" alt="" />
             </div>
@@ -183,7 +215,11 @@
           </div>
         </div>
       </main>
-    </footer>
+    </footer> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="assets/js/code.jquery.com_jquery-3.7.0.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
